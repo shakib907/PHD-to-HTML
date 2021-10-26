@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+.container{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+}
+.container::after, 
+.container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.header{
+   
+}
+.menu{
+    float: right;
+
+}
+.menu ul{
+    
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 28px 13px;
+    color: #1a54e7;
+    font-family: 'PT Sans', sans-serif;
+   
+}
+.logo {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #1a54e7;
+    padding-right: 17px;
+    position: relative;
+  
+}
+.logo:before{
+    content: "";
+    background: #1a54e7;
+    position: absolute;
+    top: 0;
+    left: -555500px;
+    right: 100%;
+    bottom: 0;
+
+}
+.logo a{
+   color: #fff;
+   font-size: 24px;
+   text-decoration: none;
+    
+}
+#active{
+    position: relative;
+}
+#active::after{
+    content: "";
+    background: #1a54e7;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+   
+}
+.banner{
+    text-align: center;
+    background-image: url(../images/bg/banner.jpg);
+    background-size: 100% 100%;
+   
+    color: #fff;
+}
+.banner-in{
+    position: relative;
+    padding-top: 215px;
+    padding-bottom: 215px;
+   
+}
+.banner-in h2{
+    font-size: 48px;
+}
+.cat{
+   position: absolute;
+   bottom: 42px;
+   left: 0;
+   
+  
+}
+.cat img{
+    position: relative;
+}
+.cat a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background: #1a54e7;
+    
+}
+.date{
+    position: absolute;
+    bottom: 42px;
+    right: 0;
+}
+.date a:first-child{
+    color: #b0b0b0;
+    padding-right: 12px;
+    
+   
+
+}
+.date a:last-child{
+    color: #1a54e7;
+    padding-left: 8px;
+}
+.date a{
+    display: inline-block;
+    text-decoration: none;
+}
+.col50{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.col33{
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+
+.col100{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: left;
+}
+.future img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.cats{
+    position: absolute;
+    bottom: 42px;
+    left: 20;
+    
+   
+ }
+ .cats img{
+     position: relative;
+ }
+ .inter{
+     position: relative;
+ }
+ .cats a{
+     color: #fff;
+     text-decoration: none;
+     padding: 10px;
+     background: #d90445;
+     
+ }
+ .cats .ana a{
+     background: #000000;
+ }
+
+.clu a:first-child{
+    color: #b0b0b0;
+    padding-right: 12px;
+}
+.clu a:last-child{
+    color: #1a54e7;
+}
+.clu a{
+    display: inline-block;
+    text-decoration: none;
+}
+.subscrib{
+    text-align: center;
+    color: #fff;
+    background: url(../images/bg/sub-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
+}
+.banner-in img{
+    border-radius: 200px;
+}
+.mena .texu h2{
+    font-size: 48px;
+}
+.mena.texu h3{
+    font-size: 24px;
+}
+.lar input{
+    width: 400px;
+    height: 52px;
+    border-radius: 30px;
+    border: 0;
+    padding-right: 134px;
+    background: #2c6cff;
+    color: #fff;
+    font-size: 16px;
+
+    
+    
+}
+.bar input{
+    font-size: 18px;
+    width: 130px;
+    height: 52px;
+    border-radius: 30px;
+    border: 0;
+    position: absolute;
+    
+    right: 0;
+    bottom: 0px;
+    background: #fff;
+    
+   
+}
+.fron{
+    position: relative;
+    display: inline-block;
+}
+.lar input:focus{
+    outline: 0;
+    font-size: 13px;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-size: 18px;
+    color: #a7acbc;
+    padding-top: 61px;
+    padding-bottom: 164px;
+
+}
+
